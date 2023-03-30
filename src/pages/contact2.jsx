@@ -82,7 +82,7 @@ const Contact2 = () => {
                 </div>
             </motion.div>
             <motion.div animate={animationPic3} className='w-1/3 h-full flex justify-center items-center'>
-                <a href="/"><img src={ContactLogo} alt="ContactLogo" className='w-[250px] h-auto animate-bounce'/></a>
+                <a href="/portfolio"><img src={ContactLogo} alt="ContactLogo" className='w-[250px] h-auto animate-bounce'/></a>
             </motion.div>
             <motion.div animate={animationPic2} className='w-1/3 h-full flex flex-col justify-center items-start pl-20 pb-20 gap-5'>
               <h4 className='text-textColor font-lato tracking-[0.3em] font-bold mb-4 uppercase'>Get in touch</h4>

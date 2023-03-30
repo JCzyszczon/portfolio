@@ -97,14 +97,14 @@ const Navbar = () => {
 
   return (
     <header className='z-[100] fixed top-0 left-0 right-0 w-full h-auto flex justify-between items-center px-20 pt-5'>
-        <a href="/"><img src={logo} alt="logo" className='w-[100px] h-auto hover:opacity-70 duration-300'/></a>
+        <a href="/portfolio"><img src={logo} alt="logo" className='w-[100px] h-auto hover:opacity-70 duration-300'/></a>
         <div onClick={handleClick} className='text-[#fff] text-5xl hover:opacity-70 cursor-pointer duration-300'>
           {!nav ? <FiMenu /> : <CgClose />}
         </div>
 
         <motion.nav ref={ref} initial={{ y: "-100%" }} animate={{ y: nav ? "0%" : "-100%", borderRadius: nav ? "0" : "50%",}} transition={{ duration: 0.5, type: "tween", bounce: 0}} className='absolute top-0 left-0 w-full h-[100vh] bg-[#fff] flex flex-col justify-start items-center z-40'>
           <section className='w-full h-auto flex justify-between items-center px-20 pt-5'>
-            <a href="/"><img src={logo2} alt="logo" className='w-[100px] h-auto hover:opacity-70 duration-300'/></a>
+            <a href="/portfolio"><img src={logo2} alt="logo" className='w-[100px] h-auto hover:opacity-70 duration-300'/></a>
             <div onClick={handleClick} className='text-mainColor text-5xl hover:opacity-70 cursor-pointer duration-300'>
               {!nav ? <FiMenu /> : <CgClose />}
             </div>
@@ -117,7 +117,7 @@ const Navbar = () => {
             </motion.aside>
             <motion.ul animate={animationPic} className='w-full h-full flex flex-col gap-5 text-start items-start justify-center text-bgColor text-9xl font-extrabold tracking-tighter'>
               <li className="list-item cursor-pointer hover:bg-bgColor hover:text-textColor" data-value="main page">
-                <a href="/" data-value="main page">main page</a>
+                <a href="/portfolio" data-value="main page">main page</a>
               </li>
               <li className="list-item cursor-pointer hover:bg-bgColor hover:text-textColor" data-value="skills">
                 <Link to='skills' smooth='true' duration={400} onClick={handleClick} data-value="skills">skills</Link>
