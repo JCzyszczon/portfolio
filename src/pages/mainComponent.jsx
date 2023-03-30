@@ -102,8 +102,7 @@ const MainConponent = () => {
               className="text-9xl tracking-wide font-bold text-[#fff] z-[3] font-ptSans"
             />
             <h2 className='z-[3] text-[#fff] text-6xl font-lato mt-3'>My name is <span className='text-mainColor p-2'>Jakub Czyszczoń</span></h2>
-            <motion.p animate={animationOpacity} className='z-[3] text-[#aaa] text-3xl font-lato mt-5'>
-Are you looking for a front-end developer who, apart from coding, is also interested in the latest UI trends?</motion.p>
+            <motion.p animate={animationOpacity} className='z-[3] text-[#aaa] text-3xl font-lato mt-5'>Are you looking for a front-end developer who, apart from coding, is also interested in the latest UI/UX trends? If so, click the button below and let me convince you!</motion.p>
             <Link to='skills' smooth='true' duration={400} className='z-[3]'><button className='px-10 py-5 mt-12 ml-6 flex group justify-center items-center gap-5 bg-mainColor hover:bg-hoverColor font-lato tracking-wide text-2xl text-[#ece5df] hover:scale-105 hover:text-[#000] hover:bg-[#fff] duration-300 rounded-lg'>Learn more<FaArrowRight className='group-hover:rotate-90 duration-300'></FaArrowRight></button></Link>
           </motion.div>
           <motion.div animate={animationPic} className='w-1/2 h-auto flex justify-center items-end z-[5]'>

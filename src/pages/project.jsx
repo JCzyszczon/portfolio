@@ -58,7 +58,7 @@ const Project = () => {
             <div id="blob" data-tip="Tooltip text" data-for="tooltip-id"></div>
             <div id="blur"></div>
             <article className='w-full h-[100vh] flex justify-center items-center overflow-x-hidden z-[5] relative'>
-                <a href="/portfolio/"><FaArrowLeft className='text-5xl text-textColor absolute left-14 top-14 z-[5] hover:opacity-70 duration-300'/></a>
+                <a href="/portfolio"><FaArrowLeft className='text-5xl text-textColor absolute left-14 top-14 z-[5] hover:opacity-70 duration-300'/></a>
                 <section className='w-1/2 h-full flex flex-col justify-center items-center px-10 py-10'>
                     <Swiper
                         loop={true}

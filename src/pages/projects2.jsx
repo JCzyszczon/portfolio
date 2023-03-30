@@ -42,7 +42,7 @@ const Projects2 = () => {
       <Parallax translateX={['500px', '-1500px']} easing="easeInQuad" className='flex justify-center items-center w-full h-[100vh]'>
           <Swiper
           slidesPerView={3}
-          spaceBetween={50}
+          spaceBetween={40}
           freeMode={true}
           loop={true}
           modules={[FreeMode]}
@@ -52,10 +52,10 @@ const Projects2 = () => {
                   return (
                       <SwiperSlide key={item.title} className='swiper-slide2 relative group'>
                         <Link to={`/projects/${item.title}`}>
-                          <div className='w-[100%] h-[100%] overflow-hidden rounded-[20px]'>
-                            <img src={require(`../images/${item.path}`)} alt={item.title} className='w-[100%] h-[100%] object-cover rounded-[20px] group-hover:scale-110 transition-all duration-500'/>
+                          <div className='w-[100%] h-[100%] overflow-hidden rounded-[20px] bg-bgColor'>
+                            <img src={require(`../images/${item.path}`)} alt={item.title} className='w-[100%] h-[100%] object-fill rounded-[20px] group-hover:scale-110 transition-all duration-500'/>
                           </div>
-                          <div className='absolute left-1/2 -translate-x-1/2 w-full px-8 bottom-[-50px] translate-y-10 -skew-y-[5deg] flex-col gap-3 opacity-0 group-hover:opacity-100 group-hover:overflow-visible group-hover:hoverUpAnimation group-hover:translate-y-2 transition-all duration-700'>
+                          <div className='absolute py-5 bg-[#00000033] rounded-lg left-1/2 -translate-x-1/2 w-full px-8 bottom-[-50px] translate-y-10 flex-col gap-3 opacity-0 group-hover:opacity-100 group-hover:overflow-visible group-hover:hoverUpAnimation group-hover:translate-y-2 transition-all duration-700'>
                             <p className='text-4xl text-[#fff] font-light group font-lato'>{item.description}</p>
                             <h3 className='text-7xl text-[#fff] tracking-tighter font-extrabold group'>{item.title}</h3>
                             <span className='text-lg text-mainColor uppercase font-extrabold'>{item.site}</span>

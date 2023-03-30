@@ -162,14 +162,14 @@ body {
   margin-right: auto;
   z-index: 999;
   border-radius: 20px;
-  transform: skewY(5deg);
   user-select: none;
   overflow: visible !important;
 }
 
 .swiper-slide2 {
   font-size: 18px;
-  height: 500px !important;
+  height: 450px !important;
+  width: 650px !important;
   z-index: 1000;
   border-radius: 20px;
   cursor: pointer;
