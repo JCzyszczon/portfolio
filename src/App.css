@@ -1,0 +1,225 @@
+body {
+  background-color: black;
+  height: auto;
+  margin: 0rem;
+  overflow-x: hidden;
+  user-zoom: fixed;
+  overflow-y: scroll;
+  overflow: overlay;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ef476f;
+  border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    scale: 1;
+  }
+  50% {
+    scale: 1.03;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes scaleUp2 {
+  from {
+    scale: 1;
+  }
+  50% {
+    scale: 0.9;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  to {
+    transform: translateX(-10px);
+  }
+}
+
+@keyframes hoverUp {
+  from {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-10px);
+    opacity: 1;
+  }
+}
+
+.hoverUpAnimation {
+  animation: hoverUp 3s ease;
+}
+
+.moveUpAnimation {
+  animation: moveUp 10s infinite;
+}
+
+.scaleUpAnimation {
+  animation: scaleUp 10s infinite;
+}
+
+.scaleUpAnimation2 {
+  animation: scaleUp2 10s infinite;
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 100%);
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+  z-index: -2;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  backdrop-filter: blur(12vmax);
+}
+
+.swiperSkills {
+  width: 80%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.swiper-slideSkills {
+  font-size: 18px;
+  height: calc((100% - 30px) / 2) !important;
+  z-index: 1000;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background-color: #000000cc;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.swiper-slideSkills:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+.swiper2 {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+  border-radius: 20px;
+  transform: skewY(5deg);
+  user-select: none;
+  overflow: visible !important;
+}
+
+.swiper-slide2 {
+  font-size: 18px;
+  height: 500px !important;
+  z-index: 1000;
+  border-radius: 20px;
+  cursor: pointer;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: none;
+}
+
+.aboutGlass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.aboutGlass:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+.active {
+  border:1px solid #ef476f;
+}
+
+.swiper3 {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.swiper-slide3 {
+  width: auto;
+  height: auto;
+  z-index: 1000;
+  border-radius: 20px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.swiper-slide3 img {
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.myImg {
+  border-radius: 20px;
+  object-fit: contain;
+}
