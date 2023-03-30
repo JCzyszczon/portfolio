@@ -51,7 +51,7 @@ const Projects2 = () => {
             {projects.map((item, index) => {
                   return (
                       <SwiperSlide key={item.title} className='swiper-slide2 relative group'>
-                        <Link to={`/projects/${item.title}`}>
+                        <Link to={`portfolio/projects/${item.title}`}>
                           <div className='w-[100%] h-[100%] overflow-hidden rounded-[20px]'>
                             <img src={require(`../images/${item.path}`)} alt={item.title} className='w-[100%] h-[100%] object-cover rounded-[20px] group-hover:scale-110 transition-all duration-500'/>
                           </div>

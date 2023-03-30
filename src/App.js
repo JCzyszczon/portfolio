@@ -10,8 +10,8 @@ function App() {
   return (
     <ParallaxProvider>
       <Routes>
-        <Route exact path='/' element={<Home/>}/>
-        <Route path='/projects/:name' element={<Project/>} />
+        <Route exact path='/portfolio/' element={<Home/>}/>
+        <Route path='portfolio/projects/:name' element={<Project/>} />
       </Routes>
     </ParallaxProvider>
   );
