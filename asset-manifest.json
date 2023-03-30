@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ecdc5b2e.css",
+    "main.js": "/portfolio/static/js/main.bfb3cfe5.js",
+    "static/media/mauve3.png": "/portfolio/static/media/mauve3.f20e0d44b15a3123a890.png",
+    "static/media/mauve1.png": "/portfolio/static/media/mauve1.f5d14a8e8f2fdf2bf7de.png",
+    "static/media/an-bud3.png": "/portfolio/static/media/an-bud3.d99c68d20c3e58f5bf32.png",
+    "static/media/ztp1.png": "/portfolio/static/media/ztp1.522cf6188bf427fa86be.png",
+    "static/media/an-bud1.png": "/portfolio/static/media/an-bud1.b732d97b7a44eb42697b.png",
+    "static/media/ztp2.png": "/portfolio/static/media/ztp2.f9099acba962efbdface.png",
+    "static/media/ztp3.png": "/portfolio/static/media/ztp3.ca2a6d02eaa2065450e7.png",
+    "static/media/an-bud2.png": "/portfolio/static/media/an-bud2.4e55ece6f181420248c7.png",
+    "static/media/profilePic.jpeg": "/portfolio/static/media/profilePic.f165571c73fb6693941c.jpeg",
+    "static/media/hangman2.png": "/portfolio/static/media/hangman2.939831c9e8a4548c2c64.png",
+    "static/media/jczyszczon-high-resolution-logo-color-on-transparent-background.png": "/portfolio/static/media/jczyszczon-high-resolution-logo-color-on-transparent-background.c6ab58dc534293fc901e.png",
+    "static/media/hangman1.png": "/portfolio/static/media/hangman1.42f6b5b1ac2f78c950a9.png",
+    "static/media/mainPageLogo2.png": "/portfolio/static/media/mainPageLogo2.ec6ca503c97aa68cdefe.png",
+    "static/media/jczyszczon-high-resolution-logo-white-on-transparent-background.png": "/portfolio/static/media/jczyszczon-high-resolution-logo-white-on-transparent-background.4505c6943a002ea0815b.png",
+    "static/media/mauve2.png": "/portfolio/static/media/mauve2.c14c1593c13e5a9bfe47.png",
+    "static/media/hangman3.png": "/portfolio/static/media/hangman3.9143324e60a2a881116a.png",
+    "static/media/contact-logo.png": "/portfolio/static/media/contact-logo.1147a1d823966ba97070.png",
+    "static/media/mainPageLogo.png": "/portfolio/static/media/mainPageLogo.0338d881f5c007f51093.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.c62ee0891ee6af964be8.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.0e06c2da23103d99d259.png",
+    "static/media/Software Developer.png": "/portfolio/static/media/Software Developer.61e74d987784c19fad26.png",
+    "static/media/React-icon.png": "/portfolio/static/media/React-icon.65b4574fa18acc52119a.png",
+    "static/media/framer-motion.png": "/portfolio/static/media/framer-motion.55228eb44adcb45bbaca.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.645f9fdfe3dd15e9d925.png",
+    "static/media/stripe.png": "/portfolio/static/media/stripe.66de20041b3d5b600372.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.fea0542a411871f18be5.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.1540ca91486b4c7eb4a9.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.6eb18ad7d8487a413955.png",
+    "index.html": "/portfolio/index.html",
+    "main.ecdc5b2e.css.map": "/portfolio/static/css/main.ecdc5b2e.css.map",
+    "main.bfb3cfe5.js.map": "/portfolio/static/js/main.bfb3cfe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecdc5b2e.css",
+    "static/js/main.bfb3cfe5.js"
+  ]
+}
