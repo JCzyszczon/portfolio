@@ -11,7 +11,7 @@ function App() {
     <ParallaxProvider>
       <Routes>
         <Route exact path='/portfolio/' element={<Home/>}/>
-        <Route path='/portfolio/projects/:name' element={<Project/>} />
+        <Route path='/projects/:name' element={<Project/>} />
       </Routes>
     </ParallaxProvider>
   );
