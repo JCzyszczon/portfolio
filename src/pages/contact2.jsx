@@ -71,7 +71,7 @@ const Contact2 = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className='relative overflow-hidden'>
+    <footer ref={ref} className='relative overflow-hidden'>
         <Parallax speed={20} className='w-full h-auto py-32 bg-mainColor flex justify-around items-center rounded-t-[30%]'>
             <motion.div animate={animationPic} className='w-1/3 h-full flex flex-col justify-center items-center'>
                 <h4 className='text-textColor font-lato tracking-[0.3em] font-bold mb-4 uppercase'>See what I am up to</h4>
@@ -82,7 +82,7 @@ const Contact2 = () => {
                 </div>
             </motion.div>
             <motion.div animate={animationPic3} className='w-1/3 h-full flex justify-center items-center'>
-                <a href="/portfolio"><img src={ContactLogo} alt="ContactLogo" className='w-[250px] h-auto animate-bounce'/></a>
+                <a href="/"><img src={ContactLogo} alt="ContactLogo" className='w-[250px] h-auto animate-bounce'/></a>
             </motion.div>
             <motion.div animate={animationPic2} className='w-1/3 h-full flex flex-col justify-center items-start pl-20 pb-20 gap-5'>
               <h4 className='text-textColor font-lato tracking-[0.3em] font-bold mb-4 uppercase'>Get in touch</h4>
@@ -90,7 +90,7 @@ const Contact2 = () => {
               <a href='mailto:jakub.czyszczon1@gmail.com' className='text-4xl tracking-tighter font-semibold text-[#000] hover:underline transition-all duration-500'>jakub.czyszczon1@gmail.com</a>
             </motion.div>
         </Parallax>
-    </section>
+    </footer>
   );
 };
   
