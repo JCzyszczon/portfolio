@@ -98,7 +98,7 @@ const Navbar = () => {
   return (
     <header className='z-[100] fixed top-0 left-0 right-0 w-full h-auto flex justify-between items-center px-20 pt-5'>
         <a href="/"><img src={logo} alt="logo" className='w-[100px] h-auto hover:opacity-70 duration-300'/></a>
-        <div onClick={handleClick} className='text-[#fff] lg:text-5xl text-4xl hover:opacity-70 cursor-pointer duration-300'>
+        <div onClick={handleClick} className='text-[#fff] lg:text-5xl text-3xl hover:opacity-70 cursor-pointer duration-300'>
           {!nav ? <FiMenu /> : <CgClose />}
         </div>
 
